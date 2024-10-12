@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.navhome {
+    margin-bottom: 30px;
+    color: white;
+    
+}
+
+.menu {
+    color: white;
+}
+
+.video-home {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+.video-home-sm{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit:scale-down;
+}
+
+.homecontent {
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-55%, -50%);
+  
+    color: white;
+}
+
+.head-homepage {
+    font-size: 6vw;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.tycan-home {
+    color: white;
+    padding: 20px;
+
+    border: 2px white solid;
+}
+
+.pause {
+    font-size: 20px;
+    color: white;
+    padding: 15px 20px;
+    border: 2px white solid;
+    margin: 20px;
+}
+
+.copy-home {
+    font-size: 12px;
+    color: rgb(181, 181, 181);
+}
+
+.home-bottom {
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+   justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .head-homepage {
+        font-size: 6vw;
+    }
+    
+    .tycan-home, .pause {
+        padding: 10px;
+        font-size: 3vw;
+    }
+    .tycan-home{
+        padding: 20px 28%;
+    }
+.homecontent {
+    left: 60%;
+}
+.home-bottom{
+    justify-content: flex-end;
+} 
+}
+.next-section {
+    position: relative;
+    margin-top: 100vh;
+   
+}
+.image-car{
+    height: fit-content;
+    position: relative;
+    overflow: hidden;
+    border-radius:12px ;
+    
+}
+.car-details{
+    
+    width: 100%;
+    padding: 0px 30px ;
+    position: absolute;
+    bottom: 20px;
+    color: white;
+   
+   
+
+}
+.arrow{
+    position: absolute;
+    right: 40px;
+}
+@media (min-width: 760px) and (max-width: 991px) {
+    .image-car, .model-car {
+        margin-left: 24%;
+    }
+}
+
+@media (max-width:759px) {
+    .image-car, .model-car{
+        margin-left: 14%;
+        width: 100%;
+    }
+}
+@media(min-width:992px){
+    .row1 {
+        margin-left: 9% !important;
+    }
+}
+.row1{
+    width: 90%;
+    margin-top: 40px !important;
+}
+.card-image{
+
+    transition: transform 0.3s ease;
+}
+.card-image:hover{
+    transform: scale(1.05);
+    border-radius: 12px ;
+}
+.page2-copy {
+    font-size: 12px;
+    color: gray;
+    margin: 0 17%;
+}
+/* models */
+.models{
+    margin-top: 70px;
+}
+.model-head{
+    font-weight: 600;
+    font-size: 45px;
+    margin: 100px 0px 70px;
+}
+.model-car{
+    position: relative;
+    overflow: hidden;
+    border-radius:12px ;
+ 
+    
+}
+.model-cards{
+
+   position: relative;
+}
+.model-content{
+  
+   position: absolute;
+   top:30px;
+   left: 6%;
+   
+}
+.model-name{
+    filter: invert(100%) brightness(2);
+    width: 80px;
+}
+
+@media (max-width: 991px){
+    .model-content{
+      left: 30%;
+    }
+    .bottom-model-content{
+        left: 30% !important;
+    }
+    .bottom-model-content h1{
+        font-size: 5vw !important; /* Adjust font size for smaller screens */
+    }
+}
+@media (max-width:759px){
+    .bottom-model-content h1{
+        font-size: 3.5vw !important;
+            }
+    .hollow-btn , .white-btn {
+        font-size: 13px !important;
+        display: block !important;
+        width: 94% !important;
+        text-align: center !important;
+        padding: 1vw !important;
+        } 
+    .hollow-btn{
+        margin-top: 10px;
+        margin-left:0 !important;
+    }
+}
+
+@media (min-width:991px ) and (max-width:1919px) {
+    
+    .hollow-btn , .white-btn {
+        font-size: 18px !important;
+        display: block !important;
+        width: 94% !important;
+        text-align: center !important;
+        padding: .5vw !important;
+        } 
+    .hollow-btn{
+        margin-top: 10px;
+        margin-left:0 !important;
+    }
+}
+.gas{
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 5px;
+    color: white;
+    background-color:#6b6e72;
+}
+.bottom-model-content{
+    position: absolute;
+    bottom:5%;
+    left: 6%;
+}
+.bottom-model-content h1{
+    padding-right: 20px;
+    color: white;
+    font-size: 1.5vw;
+    margin-bottom: 0;
+}
+.white-btn{
+background-color: white;
+padding: .5vw;
+color: black;
+border-radius: 5px;
+font-size: 18px;
+}
+.hollow-btn{
+    padding: .5vw;
+    border: 2px white solid;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-left:20px ;
+    font-size: 18px;
+}
+/* social */
+.social-cont{
+  
+}
+.social-cont{
+   
+    position: relative;
+    display: inline-block; /* Or block, depending on your layout */
+  }
+  
+  .social-cont img {
+    border-radius: 10px;
+    display: block;
+    width: 100%; /* Adjust based on your image size */
+    height: auto;
+  }
+  
+  .social-cont::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust the opacity (0.5 here) */
+    z-index: 1;
+    border-radius: 10px;
+  }
+  .social-contents{
+    color: white;
+    position: absolute;
+    left: 15%;
+    bottom: 35%;
+    z-index: 10;
+  }
+
+
+  @media (max-width:759px) {
+    .social-contents{
+        bottom: 8%;
+        left: 7%;    
+    }
+  
+  }
+  .social-contents h1{
+
+    font-size: clamp(14px, 5vw, 24px);
+  }
+  .social-contents p{
+
+    font-size: clamp(10px, 1.2vw, 14px);
+  }
+  /* footer */
+
+.foot{
+    margin-top: 300px;
+    background-color: black;
+    color: white;
+    padding: 70px;
+  }
+  .footer-white-btn {
+    border-radius: 5px;
+    display: block;
+    width: 300px;
+    text-align: center;
+    padding: 15px ;
+    color: rgb(0, 0, 0);
+    background-color: white;
+  }
+.icon{
+    background-color: white;
+    border-radius: 7px;
+    padding: 13px;
+    
+  
+}
+@media (min-width:585px) and (max-width:787px) {
+    .footer-white-btn {
+      
+        width:80vw;
+     
+      }
+}
+@media (max-width:584px){
+    .footer-white-btn {
+      
+        width:70vw;
+     
+      }
+}
+.foot-row-item-2{
+    width: 350px;
+}
+.hr-class{
+    background-color: black;
+    color: #6b6e72;
+    width: 100%;
+    margin: 0 auto;
+}
+.first-line a{
+    color: white;
+    text-decoration: underline !important;
+
+}
+.bottom-logo{
+  
+    display: flex;
+    justify-content: center;
+  
+}

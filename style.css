@@ -105,6 +105,10 @@ background-color: #e5e5e5c1;
 
     border: 2px white solid;
 }
+.tycan-home:hover{
+    border-color: #6b6e72;
+    background-color: #2e2e2e78;
+}
 
 .pause {
     font-size: 20px;
@@ -112,6 +116,10 @@ background-color: #e5e5e5c1;
     padding: 15px 20px;
     border: 2px white solid;
     margin: 20px;
+}
+.pause:hover{
+    border-color: #6b6e72;
+    background-color: #2e2e2e78;
 }
 
 .copy-home {
@@ -285,6 +293,14 @@ background-color: #e5e5e5c1;
         margin-top: 10px;
         margin-left:0 !important;
     }
+}
+.hollow-btn:hover{
+    border-color: #6b6e72 !important;
+    background-color: #2e2e2e78;
+}
+.white-btn:hover{
+
+    background-color: #c1c1c178;
 }
 .gas{
     font-size: 14px;

@@ -19,9 +19,77 @@
     <div class="home">
         <nav>
             <div class="navbar navhome">
-                <div class="menu ms-5">
-                    <i class="fa-solid fa-bars"></i> 
-                    <span class="ms-1">Menu</span>
+                <div class="menu ms-5 pe-2">
+                    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                        <i class="fa-solid fa-bars text-light"></i> 
+                        <span class="text-light">Menu</span>
+                      </button>
+                      
+                      <div class="offcanvas offcanvas-start custom-offcanvas-width" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                       
+                        <div class="offcanvas-body p-0">
+                          <div class="row">
+                         <div class="col-lg-6 models-sidebar">
+                            <div class="d-flex justify-content-between mx-5 offcanvas-list " style=" background-color: #e5e5e5c1;" ><span>Models</span> <i class="fa-solid fa-angle-right"></i></div>
+                            <div class="d-flex justify-content-between mx-5 offcanvas-list"><span>Vehicle Purchase</span> <i class="fa-solid fa-angle-right"></i></div>
+                            <div class="d-flex justify-content-between mx-5 offcanvas-list"><span>Services</span> <i class="fa-solid fa-angle-right"></i></div>
+                            <div class="d-flex justify-content-between mx-5 offcanvas-list"><span>Experience</span> <i class="fa-solid fa-angle-right"></i></div>
+                            <div class="d-flex justify-content-between mx-5 offcanvas-list"><span>Find a Dealer</span> <i class="fa-solid fa-angle-right"></i></div>
+                            <div class="d-flex justify-content-between mx-5 offcanvas-list"><span>My Porsche</span> <i class="fa-solid fa-angle-right"></i></div>
+                    
+                         </div>
+                         <div class=" d-none d-lg-block col-lg-6 model-offcanvas-body pt-0">
+                            <div class="offcanvas-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                              </div>
+                              <div class="sidebar-model p-5 ">
+                                <h5>718</h5>
+                                <img src="./source/718@2x.webp" alt="" class="img-fluid w-100 car-sidebar" >
+                                <div class="model-gas mt-2" >Gasoline</div>
+                              </div>
+                              <div class="sidebar-model p-5">
+                                <h5>911</h5>
+                                <img src="./source/911@2x.webp" alt="" class="img-fluid w-100 car-sidebar" >
+                                <div class="model-gas mt-2" >Gasoline</div>
+                              </div>   
+                              <div class="sidebar-model p-5">
+                                <h5>Tycan</h5>
+                                <img src="./source/taycan.webp" alt="" class="img-fluid w-100 car-sidebar" >
+                                <div class="model-gas mt-2">Electro</div>
+                              </div>   
+                              <div class="sidebar-model p-5">
+                                <h5>panemera</h5>
+                                <img src="./source/panamera@2x.webp" alt="" class="img-fluid w-100 car-sidebar" >
+
+                               <div class="d-flex gap-2">
+                                    <div class="model-gas mt-2">Hybrid</div>
+                                    <div class=" model-gas mt-2 " >Gasoline</div>
+                               </div>
+
+                              </div>
+                              <div class="sidebar-model p-5">
+                                <h5>Macan</h5>
+                                <img src="./source/macan@2x.webp" alt="" class="img-fluid w-100 car-sidebar" >
+                                <div class="d-flex gap-2">
+                                    <div class="model-gas mt-2">Electro</div>
+                                    <div class=" model-gas mt-2 " >Gasoline</div>
+                               </div>
+                              </div>
+                              <div class="sidebar-model p-5">
+                                <h5>Cayenne</h5>
+                                <img src="./source/cayenne.webp" alt="" class=" img-fluid  w-100 car-sidebar" >
+                                <div class="d-flex gap-2">
+                                    <div class="model-gas mt-2">Hybrid</div>
+                                    <div class=" model-gas mt-2 " >Gasoline</div>
+                               </div>
+                              </div>
+                         </div>
+
+                          </div>
+                        </div>
+                      </div>
+                  
+              
                 </div>
                 <img src="./source/185a31badcb782ed163c2406021956b4-removebg-preview.png" alt="" width="270px" class="d-none d-md-block">
                 <img src="./source/logo porsche.ico" alt="" class="d-md-none">

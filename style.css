@@ -21,8 +21,49 @@ a {
 
 .menu {
     color: white;
+    
 }
+.menu:hover{
+    background-color: #6b6e72ab;
 
+}
+.custom-offcanvas-width{
+    width: 60% !important;
+}
+.offcanvas-list{
+    padding: 20px ;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.offcanvas-list:hover{
+background-color: #e5e5e5c1;
+
+}
+.offcanvas-body {
+    overflow-y: auto; /* Allows scrolling */
+    max-height: 100vh; /* Prevents the content from exceeding the viewport height */
+  }
+  .models-sidebar{
+    margin-top: 50px !important;
+    overflow-y: auto; /* Allows scrolling */
+    max-height: 100vh; /* Prevents the content from exceeding the viewport height */
+  }
+  .sidebar-model{
+    border-radius: 30px;
+    margin: 30px;
+  }
+  .sidebar-model:hover{
+    background-color: white;
+
+  }
+  .sidebar-model .car-sidebar{
+    transition: transform 0.5s ease;
+
+  }
+  .sidebar-model:hover .car-sidebar {
+    transform: translateX(30px)
+   
+  }
 .video-home {
     position: absolute;
     right: 0;
@@ -251,6 +292,20 @@ a {
     padding: 5px;
     color: white;
     background-color:#6b6e72;
+}
+.model-gas{
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    background-color:#ffffff;
+    width: 75px;
+}
+.sidebar-model:hover .model-gas{
+background-color: rgb(238, 239, 242);
+}
+.model-offcanvas-body{
+background-color: rgb(238, 239, 242);
 }
 .bottom-model-content{
     position: absolute;
